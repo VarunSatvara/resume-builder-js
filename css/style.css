@@ -1,0 +1,52 @@
+.circle {
+    height: 80px;
+    width: 80px;
+    color: #491CBA;
+    background-color: #EBC655;
+}
+
+.circle h4 {
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.bg-head {
+    background-color: #4619bc;
+}
+
+.font-title h1 {
+    color: #EBC655;
+    letter-spacing: 2px;
+    font-size: 38px;
+}
+
+.font-title small {
+    color: #EBC655;
+    letter-spacing: 4px;
+    font-size: 14px;
+}
+
+.btn-pen {
+    height: 50px;
+    width: 50px;
+    background-color: #FFC312;
+}
+
+
+/* .btn-pen:active {
+    outline: none;
+}
+
+.btn-pen:focus {
+    outline: 0;
+} */
+
+.btn-pen:active {
+    transform: translateY(4px);
+}
+
+.underline {
+    height: 4px;
+    width: 25px;
+    background-color: #ebc655;
+}
