@@ -32,15 +32,6 @@
     background-color: #FFC312;
 }
 
-
-/* .btn-pen:active {
-    outline: none;
-}
-
-.btn-pen:focus {
-    outline: 0;
-} */
-
 .btn-pen:active {
     transform: translateY(4px);
 }
@@ -68,3 +59,80 @@
     font-size: 16px;
     font-family: 'Noto Sans', sans-serif;
 }
+
+.head-text {
+    font-size: 17px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 2560px) {}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {}
+
+@media screen and (min-width: 375px) and (max-width: 425px) {
+    .circle {
+        height: 60px;
+        width: 60px;
+    }
+    .circle h4 {
+        font-size: 25px;
+    }
+    .font-title h1 {
+        font-size: 30px;
+    }
+    .font-title small {
+        font-size: 10px;
+    }
+    .subject-left {
+        font-size: 19px;
+    }
+    .desc-profile {
+        font-size: 17px;
+    }
+    .skill-profile {
+        font-size: 15px;
+    }
+    .head-text {
+        font-size: 15px;
+    }
+}
+
+
+}
+@media screen and (min-width: 320px) and (max-width: 375px) {
+    .circle {
+        height: 60px;
+        width: 60px;
+    }
+    
+    .circle h4 {
+        font-size: 25px;
+    }
+    
+    .font-title h1 {
+        font-size: 30px;
+    }
+    
+    .font-title small {
+        font-size: 10px;
+    }
+    
+    .subject-left {
+        font-size: 19px;
+    }
+    
+    .desc-profile {
+        font-size: 17px;
+    }
+    
+    .skill-profile {
+        font-size: 15px;
+    }
+    
+    .head-text {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 319px) {}
