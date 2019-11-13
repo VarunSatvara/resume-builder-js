@@ -50,3 +50,21 @@
     width: 35px;
     background-color: #ebc655;
 }
+
+.subject-left {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    color: #4619bc;
+}
+
+.desc-profile {
+    color: #7e5dd0;
+    font-size: 17px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.skill-profile {
+    color: #4619bc;
+    font-size: 16px;
+    font-family: 'Noto Sans', sans-serif;
+}
