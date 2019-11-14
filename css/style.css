@@ -2,8 +2,8 @@
     body {
         -webkit-print-color-adjust: exact !important;
     }
-    .btn-pen {
-        visibility: hidden;
+    .list-btn {
+        display: none;
     }
 }
 
